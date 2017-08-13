@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAA5B6A71F40591F0024F6E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5B6A61F40591F0024F6E3 /* AppDelegate.swift */; };
+		AAA5B6A91F40591F0024F6E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5B6A81F40591F0024F6E3 /* ViewController.swift */; };
+		AAA5B6AC1F40591F0024F6E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA5B6AA1F40591F0024F6E3 /* Main.storyboard */; };
+		AAA5B6AE1F40591F0024F6E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA5B6AD1F40591F0024F6E3 /* Assets.xcassets */; };
+		AAA5B6B11F40591F0024F6E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA5B6AF1F40591F0024F6E3 /* LaunchScreen.storyboard */; };
+		AAA5B6BC1F4059200024F6E3 /* PomoTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5B6BB1F4059200024F6E3 /* PomoTimeTests.swift */; };
+		AAA5B6C71F4059200024F6E3 /* PomoTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5B6C61F4059200024F6E3 /* PomoTimeUITests.swift */; };
+		AAA5B6CC1F4059200024F6E3 /* PomoTime WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AAA5B6CB1F4059200024F6E3 /* PomoTime WatchKit App.app */; };
+		AAA5B6D21F4059200024F6E3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA5B6D01F4059200024F6E3 /* Interface.storyboard */; };
+		AAA5B6D41F4059200024F6E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA5B6D31F4059200024F6E3 /* Assets.xcassets */; };
+		AAA5B6DB1F4059200024F6E3 /* PomoTime WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AAA5B6DA1F4059200024F6E3 /* PomoTime WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AAA5B6E21F4059200024F6E3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5B6E11F4059200024F6E3 /* InterfaceController.swift */; };
+		AAA5B6E41F4059200024F6E3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5B6E31F4059200024F6E3 /* ExtensionDelegate.swift */; };
+		AAA5B6E61F4059200024F6E3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5B6E51F4059200024F6E3 /* NotificationController.swift */; };
+		AAA5B6E81F4059200024F6E3 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5B6E71F4059200024F6E3 /* ComplicationController.swift */; };
+		AAA5B6EA1F4059200024F6E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA5B6E91F4059200024F6E3 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAA5B6B81F4059200024F6E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA5B69B1F40591F0024F6E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA5B6A21F40591F0024F6E3;
+			remoteInfo = PomoTime;
+		};
+		AAA5B6C31F4059200024F6E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA5B69B1F40591F0024F6E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA5B6A21F40591F0024F6E3;
+			remoteInfo = PomoTime;
+		};
+		AAA5B6CD1F4059200024F6E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA5B69B1F40591F0024F6E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA5B6CA1F4059200024F6E3;
+			remoteInfo = "PomoTime WatchKit App";
+		};
+		AAA5B6DC1F4059200024F6E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA5B69B1F40591F0024F6E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA5B6D91F4059200024F6E3;
+			remoteInfo = "PomoTime WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AAA5B6F11F4059200024F6E3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AAA5B6DB1F4059200024F6E3 /* PomoTime WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA5B6F51F4059200024F6E3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AAA5B6CC1F4059200024F6E3 /* PomoTime WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AAA5B6A31F40591F0024F6E3 /* PomoTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomoTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA5B6A61F40591F0024F6E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAA5B6A81F40591F0024F6E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAA5B6AB1F40591F0024F6E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAA5B6AD1F40591F0024F6E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAA5B6B01F40591F0024F6E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAA5B6B21F40591F0024F6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA5B6B71F4059200024F6E3 /* PomoTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomoTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA5B6BB1F4059200024F6E3 /* PomoTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoTimeTests.swift; sourceTree = "<group>"; };
+		AAA5B6BD1F4059200024F6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA5B6C21F4059200024F6E3 /* PomoTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomoTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA5B6C61F4059200024F6E3 /* PomoTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoTimeUITests.swift; sourceTree = "<group>"; };
+		AAA5B6C81F4059200024F6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA5B6CB1F4059200024F6E3 /* PomoTime WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PomoTime WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA5B6D11F4059200024F6E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		AAA5B6D31F4059200024F6E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAA5B6D51F4059200024F6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA5B6DA1F4059200024F6E3 /* PomoTime WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PomoTime WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA5B6E01F4059200024F6E3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		AAA5B6E11F4059200024F6E3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		AAA5B6E31F4059200024F6E3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		AAA5B6E51F4059200024F6E3 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		AAA5B6E71F4059200024F6E3 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		AAA5B6E91F4059200024F6E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAA5B6EB1F4059200024F6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAA5B6A01F40591F0024F6E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA5B6B41F4059200024F6E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA5B6BF1F4059200024F6E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA5B6D71F4059200024F6E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAA5B69A1F40591F0024F6E3 = {
+			isa = PBXGroup;
+			children = (
+				AAA5B6A51F40591F0024F6E3 /* PomoTime */,
+				AAA5B6BA1F4059200024F6E3 /* PomoTimeTests */,
+				AAA5B6C51F4059200024F6E3 /* PomoTimeUITests */,
+				AAA5B6CF1F4059200024F6E3 /* PomoTime WatchKit App */,
+				AAA5B6DE1F4059200024F6E3 /* PomoTime WatchKit Extension */,
+				AAA5B6A41F40591F0024F6E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAA5B6A41F40591F0024F6E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5B6A31F40591F0024F6E3 /* PomoTime.app */,
+				AAA5B6B71F4059200024F6E3 /* PomoTimeTests.xctest */,
+				AAA5B6C21F4059200024F6E3 /* PomoTimeUITests.xctest */,
+				AAA5B6CB1F4059200024F6E3 /* PomoTime WatchKit App.app */,
+				AAA5B6DA1F4059200024F6E3 /* PomoTime WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAA5B6A51F40591F0024F6E3 /* PomoTime */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5B6A61F40591F0024F6E3 /* AppDelegate.swift */,
+				AAA5B6A81F40591F0024F6E3 /* ViewController.swift */,
+				AAA5B6AA1F40591F0024F6E3 /* Main.storyboard */,
+				AAA5B6AD1F40591F0024F6E3 /* Assets.xcassets */,
+				AAA5B6AF1F40591F0024F6E3 /* LaunchScreen.storyboard */,
+				AAA5B6B21F40591F0024F6E3 /* Info.plist */,
+			);
+			path = PomoTime;
+			sourceTree = "<group>";
+		};
+		AAA5B6BA1F4059200024F6E3 /* PomoTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5B6BB1F4059200024F6E3 /* PomoTimeTests.swift */,
+				AAA5B6BD1F4059200024F6E3 /* Info.plist */,
+			);
+			path = PomoTimeTests;
+			sourceTree = "<group>";
+		};
+		AAA5B6C51F4059200024F6E3 /* PomoTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5B6C61F4059200024F6E3 /* PomoTimeUITests.swift */,
+				AAA5B6C81F4059200024F6E3 /* Info.plist */,
+			);
+			path = PomoTimeUITests;
+			sourceTree = "<group>";
+		};
+		AAA5B6CF1F4059200024F6E3 /* PomoTime WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5B6D01F4059200024F6E3 /* Interface.storyboard */,
+				AAA5B6D31F4059200024F6E3 /* Assets.xcassets */,
+				AAA5B6D51F4059200024F6E3 /* Info.plist */,
+			);
+			path = "PomoTime WatchKit App";
+			sourceTree = "<group>";
+		};
+		AAA5B6DE1F4059200024F6E3 /* PomoTime WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5B6E11F4059200024F6E3 /* InterfaceController.swift */,
+				AAA5B6E31F4059200024F6E3 /* ExtensionDelegate.swift */,
+				AAA5B6E51F4059200024F6E3 /* NotificationController.swift */,
+				AAA5B6E71F4059200024F6E3 /* ComplicationController.swift */,
+				AAA5B6E91F4059200024F6E3 /* Assets.xcassets */,
+				AAA5B6EB1F4059200024F6E3 /* Info.plist */,
+				AAA5B6DF1F4059200024F6E3 /* Supporting Files */,
+			);
+			path = "PomoTime WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		AAA5B6DF1F4059200024F6E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5B6E01F4059200024F6E3 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAA5B6A21F40591F0024F6E3 /* PomoTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA5B6F61F4059200024F6E3 /* Build configuration list for PBXNativeTarget "PomoTime" */;
+			buildPhases = (
+				AAA5B69F1F40591F0024F6E3 /* Sources */,
+				AAA5B6A01F40591F0024F6E3 /* Frameworks */,
+				AAA5B6A11F40591F0024F6E3 /* Resources */,
+				AAA5B6F51F4059200024F6E3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAA5B6CE1F4059200024F6E3 /* PBXTargetDependency */,
+			);
+			name = PomoTime;
+			productName = PomoTime;
+			productReference = AAA5B6A31F40591F0024F6E3 /* PomoTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAA5B6B61F4059200024F6E3 /* PomoTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA5B6F91F4059200024F6E3 /* Build configuration list for PBXNativeTarget "PomoTimeTests" */;
+			buildPhases = (
+				AAA5B6B31F4059200024F6E3 /* Sources */,
+				AAA5B6B41F4059200024F6E3 /* Frameworks */,
+				AAA5B6B51F4059200024F6E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAA5B6B91F4059200024F6E3 /* PBXTargetDependency */,
+			);
+			name = PomoTimeTests;
+			productName = PomoTimeTests;
+			productReference = AAA5B6B71F4059200024F6E3 /* PomoTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAA5B6C11F4059200024F6E3 /* PomoTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA5B6FC1F4059200024F6E3 /* Build configuration list for PBXNativeTarget "PomoTimeUITests" */;
+			buildPhases = (
+				AAA5B6BE1F4059200024F6E3 /* Sources */,
+				AAA5B6BF1F4059200024F6E3 /* Frameworks */,
+				AAA5B6C01F4059200024F6E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAA5B6C41F4059200024F6E3 /* PBXTargetDependency */,
+			);
+			name = PomoTimeUITests;
+			productName = PomoTimeUITests;
+			productReference = AAA5B6C21F4059200024F6E3 /* PomoTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AAA5B6CA1F4059200024F6E3 /* PomoTime WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA5B6F21F4059200024F6E3 /* Build configuration list for PBXNativeTarget "PomoTime WatchKit App" */;
+			buildPhases = (
+				AAA5B6C91F4059200024F6E3 /* Resources */,
+				AAA5B6F11F4059200024F6E3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAA5B6DD1F4059200024F6E3 /* PBXTargetDependency */,
+			);
+			name = "PomoTime WatchKit App";
+			productName = "PomoTime WatchKit App";
+			productReference = AAA5B6CB1F4059200024F6E3 /* PomoTime WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		AAA5B6D91F4059200024F6E3 /* PomoTime WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA5B6EE1F4059200024F6E3 /* Build configuration list for PBXNativeTarget "PomoTime WatchKit Extension" */;
+			buildPhases = (
+				AAA5B6D61F4059200024F6E3 /* Sources */,
+				AAA5B6D71F4059200024F6E3 /* Frameworks */,
+				AAA5B6D81F4059200024F6E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PomoTime WatchKit Extension";
+			productName = "PomoTime WatchKit Extension";
+			productReference = AAA5B6DA1F4059200024F6E3 /* PomoTime WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAA5B69B1F40591F0024F6E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Matthew Dowse";
+				TargetAttributes = {
+					AAA5B6A21F40591F0024F6E3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TB3Q8Q9QP7;
+						ProvisioningStyle = Automatic;
+					};
+					AAA5B6B61F4059200024F6E3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TB3Q8Q9QP7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AAA5B6A21F40591F0024F6E3;
+					};
+					AAA5B6C11F4059200024F6E3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TB3Q8Q9QP7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AAA5B6A21F40591F0024F6E3;
+					};
+					AAA5B6CA1F4059200024F6E3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TB3Q8Q9QP7;
+						ProvisioningStyle = Automatic;
+					};
+					AAA5B6D91F4059200024F6E3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TB3Q8Q9QP7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AAA5B69E1F40591F0024F6E3 /* Build configuration list for PBXProject "PomoTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAA5B69A1F40591F0024F6E3;
+			productRefGroup = AAA5B6A41F40591F0024F6E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAA5B6A21F40591F0024F6E3 /* PomoTime */,
+				AAA5B6B61F4059200024F6E3 /* PomoTimeTests */,
+				AAA5B6C11F4059200024F6E3 /* PomoTimeUITests */,
+				AAA5B6CA1F4059200024F6E3 /* PomoTime WatchKit App */,
+				AAA5B6D91F4059200024F6E3 /* PomoTime WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAA5B6A11F40591F0024F6E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA5B6B11F40591F0024F6E3 /* LaunchScreen.storyboard in Resources */,
+				AAA5B6AE1F40591F0024F6E3 /* Assets.xcassets in Resources */,
+				AAA5B6AC1F40591F0024F6E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA5B6B51F4059200024F6E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA5B6C01F4059200024F6E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA5B6C91F4059200024F6E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA5B6D41F4059200024F6E3 /* Assets.xcassets in Resources */,
+				AAA5B6D21F4059200024F6E3 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA5B6D81F4059200024F6E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA5B6EA1F4059200024F6E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAA5B69F1F40591F0024F6E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA5B6A91F40591F0024F6E3 /* ViewController.swift in Sources */,
+				AAA5B6A71F40591F0024F6E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA5B6B31F4059200024F6E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA5B6BC1F4059200024F6E3 /* PomoTimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA5B6BE1F4059200024F6E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA5B6C71F4059200024F6E3 /* PomoTimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA5B6D61F4059200024F6E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA5B6E61F4059200024F6E3 /* NotificationController.swift in Sources */,
+				AAA5B6E81F4059200024F6E3 /* ComplicationController.swift in Sources */,
+				AAA5B6E41F4059200024F6E3 /* ExtensionDelegate.swift in Sources */,
+				AAA5B6E21F4059200024F6E3 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAA5B6B91F4059200024F6E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAA5B6A21F40591F0024F6E3 /* PomoTime */;
+			targetProxy = AAA5B6B81F4059200024F6E3 /* PBXContainerItemProxy */;
+		};
+		AAA5B6C41F4059200024F6E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAA5B6A21F40591F0024F6E3 /* PomoTime */;
+			targetProxy = AAA5B6C31F4059200024F6E3 /* PBXContainerItemProxy */;
+		};
+		AAA5B6CE1F4059200024F6E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAA5B6CA1F4059200024F6E3 /* PomoTime WatchKit App */;
+			targetProxy = AAA5B6CD1F4059200024F6E3 /* PBXContainerItemProxy */;
+		};
+		AAA5B6DD1F4059200024F6E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAA5B6D91F4059200024F6E3 /* PomoTime WatchKit Extension */;
+			targetProxy = AAA5B6DC1F4059200024F6E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAA5B6AA1F40591F0024F6E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA5B6AB1F40591F0024F6E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAA5B6AF1F40591F0024F6E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA5B6B01F40591F0024F6E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AAA5B6D01F4059200024F6E3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA5B6D11F4059200024F6E3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAA5B6EC1F4059200024F6E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAA5B6ED1F4059200024F6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAA5B6EF1F4059200024F6E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = TB3Q8Q9QP7;
+				INFOPLIST_FILE = "PomoTime WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PomoTime.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		AAA5B6F01F4059200024F6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = TB3Q8Q9QP7;
+				INFOPLIST_FILE = "PomoTime WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PomoTime.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		AAA5B6F31F4059200024F6E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TB3Q8Q9QP7;
+				IBSC_MODULE = PomoTime_WatchKit_Extension;
+				INFOPLIST_FILE = "PomoTime WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PomoTime.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		AAA5B6F41F4059200024F6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TB3Q8Q9QP7;
+				IBSC_MODULE = PomoTime_WatchKit_Extension;
+				INFOPLIST_FILE = "PomoTime WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PomoTime.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		AAA5B6F71F4059200024F6E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TB3Q8Q9QP7;
+				INFOPLIST_FILE = PomoTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PomoTime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AAA5B6F81F4059200024F6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TB3Q8Q9QP7;
+				INFOPLIST_FILE = PomoTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PomoTime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AAA5B6FA1F4059200024F6E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TB3Q8Q9QP7;
+				INFOPLIST_FILE = PomoTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PomoTimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PomoTime.app/PomoTime";
+			};
+			name = Debug;
+		};
+		AAA5B6FB1F4059200024F6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TB3Q8Q9QP7;
+				INFOPLIST_FILE = PomoTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PomoTimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PomoTime.app/PomoTime";
+			};
+			name = Release;
+		};
+		AAA5B6FD1F4059200024F6E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TB3Q8Q9QP7;
+				INFOPLIST_FILE = PomoTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PomoTimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PomoTime;
+			};
+			name = Debug;
+		};
+		AAA5B6FE1F4059200024F6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TB3Q8Q9QP7;
+				INFOPLIST_FILE = PomoTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PomoTimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PomoTime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAA5B69E1F40591F0024F6E3 /* Build configuration list for PBXProject "PomoTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA5B6EC1F4059200024F6E3 /* Debug */,
+				AAA5B6ED1F4059200024F6E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA5B6EE1F4059200024F6E3 /* Build configuration list for PBXNativeTarget "PomoTime WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA5B6EF1F4059200024F6E3 /* Debug */,
+				AAA5B6F01F4059200024F6E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAA5B6F21F4059200024F6E3 /* Build configuration list for PBXNativeTarget "PomoTime WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA5B6F31F4059200024F6E3 /* Debug */,
+				AAA5B6F41F4059200024F6E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAA5B6F61F4059200024F6E3 /* Build configuration list for PBXNativeTarget "PomoTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA5B6F71F4059200024F6E3 /* Debug */,
+				AAA5B6F81F4059200024F6E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAA5B6F91F4059200024F6E3 /* Build configuration list for PBXNativeTarget "PomoTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA5B6FA1F4059200024F6E3 /* Debug */,
+				AAA5B6FB1F4059200024F6E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAA5B6FC1F4059200024F6E3 /* Build configuration list for PBXNativeTarget "PomoTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA5B6FD1F4059200024F6E3 /* Debug */,
+				AAA5B6FE1F4059200024F6E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAA5B69B1F40591F0024F6E3 /* Project object */;
+}
